@@ -1,0 +1,241 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+.all{
+    width: 1240px;
+    margin: 0 auto;
+}
+.first{
+    width: 1250px;
+    height:58px;
+    background:#191d3a;
+    position: fixed;
+    left:55px;
+    top:0;
+    z-index: 999;
+}
+.first img{
+    float: left;
+    margin-left: 140px;
+}
+.first nav{
+    float:left;
+    margin-left: 50px;
+}
+.first nav ul li{
+    float:left;
+    width: 100px;
+}
+.first nav ul li span{
+    display: block;
+    font-size: 14px;
+    color: #818496;
+    margin:0 auto; 
+    line-height: 58px;
+    text-align: center;
+}
+.first nav ul .a1,.first nav ul li:hover{
+    background: #252947;
+}
+.first nav ul .a1 a span,.first nav ul li a:hover span{
+    font-size: 14px;
+    color: #e2e4ed;
+}
+.first input{
+    width: 99px;
+    height: 35px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 11px;
+    margin-left: 47px;
+    border-radius: 5px;
+    background: #38b774;
+
+}
+.second{
+    width: 1250px;
+    height: 515px;
+    background: url("../images/banner.jpg") -320px 32px no-repeat;
+}
+.second ul{
+    list-style: none;
+    counter-reset:counter;
+}
+
+.second ul li:before{
+    float: left;
+    margin-top: 500px;
+    content: "● ";
+    color: #fdde90;
+    z-index: 999;
+}
+.third{
+    float: left;
+    margin:50px 120px;
+    border-bottom: 1px solid #dbe1e7;
+}
+.f1,.f2,.f3{
+    float: left;
+    margin-right: 40px;
+}
+.f4{
+    float: left;
+}
+.third figcaption{
+    font-size: 14px;
+    color: #444866;
+    line-height: 38px;
+    text-align: center; 
+}
+.third .test a{
+    display: block;
+    font-size: 13px;
+    color: #38b774;
+    line-height: 24px;
+    text-align: center;
+}
+.third li{
+    position: relative;
+    margin-bottom: 48px;
+}
+.third .test:after{
+    display:block;
+    position: absolute;
+    left:65%;
+    bottom: 29%;
+    content:"";
+    width:0;
+    height:0;
+    border:5px solid transparent;
+    border-left-color:#38b774;
+}
+.fourth{
+    width: 1000px;
+    margin: 0 auto;
+}
+.fourth .left{
+    float: left;
+    width: 500px;
+    height: 310px;
+    background: url("../images/bynewsbg.jpg");
+}
+.fourth .left a .test1{
+    width: 66px;
+    height: 28px;
+    font-size: 15px;
+    color: #33b972;
+    margin-left: 222px;
+    margin-top: 40px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #33b972;
+    border-radius: 5px;
+}
+.fourth .left div{
+    width: 460px;
+    height: 50px;
+    margin-left: 20px;
+    border-bottom: 1px solid #dbe1e7;
+}
+.fourth .left .test2{
+    margin-top: 40px;
+}
+.fourth .left div span{
+    float: left;
+    font-size: 10px;
+    color: #b6c4dc;
+    line-height: 50px;
+    text-align: center;
+}
+.fourth .left div a p{
+    float: left;
+    font-size: 15px;
+    color: #444866;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.fourth .right{
+    float: left;
+    width: 500px;
+    height: 310px;
+    background: url("../images/byhrbg3.jpg");
+}
+.fourth .right img{
+    float: left;
+    margin-top: 45px;
+    margin-left: 82px;
+}
+.fourth .right a .test1{
+    float: left;
+    width: 66px;
+    height: 28px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 26px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.fourth .right span{
+    display: block;
+    margin-top: 115px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700px;
+}
+.fourth .right div{
+    width: 310px;
+    height: 35px;
+    margin-left: 20px;
+    border-bottom: 1px solid #6fdea3;
+}
+.fourth .right div a p{
+    font-size: 15px;
+    color: #fff;
+    line-height: 36px;
+}
+.last{
+    width: 1250px;
+    height: 90px;
+    margin-top: 50px;
+    background: #191d3a;
+}
+.last li{
+    margin-left: 125px;
+}
+.last li .a1 p,.last li .a2 p{
+    float: left;
+    font-size: 12px;
+    color: #6c6e7e;
+    line-height: 88px;
+}
+.last li .p1{
+    float: left;
+    font-size: 12px;
+    color: #6c6e7e;
+    margin:0 7px;
+    line-height: 88px;
+}
+.last span{
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #6c6e7e;
+    margin-left: 166px;
+    line-height: 88px;
+}
+.last img{
+    float: left;
+    width: 38px;
+    height: 51px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
